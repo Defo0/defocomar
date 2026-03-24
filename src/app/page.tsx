@@ -147,10 +147,11 @@ export default function Home() {
       <section className="py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-[family-name:var(--font-press-start)] text-lg mb-4">
-            ¿Listo para codear?
+            ¿Estamos listos para codear?
           </h2>
+          <p className="text-accent-green font-bold mb-2">¡Sí capitán, estamos listos!</p>
           <p className="text-muted-foreground mb-8">
-            Empezá con Python, el lenguaje perfecto para principiantes y expertos.
+            Vamos a practicar un poco de Python, from zero to hero.
           </p>
           <Link href="/python">
             <PixelButton variant="success">
