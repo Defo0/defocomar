@@ -1,0 +1,65 @@
+{
+  "seccion": "python",
+  "modulo": {
+    "numero": 1,
+    "titulo": "Variables y tipos de datos",
+    "slug": "01-variables",
+    "teoria": {
+      "explicacion": "Las variables son como cajas con etiquetas donde guardás información. Cada caja tiene un nombre (la etiqueta) y puede contener distintos tipos de cosas: números, texto, valores de verdadero/falso, etc.\n\nEn Python, crear una variable es tan simple como escribir un nombre, el signo igual, y el valor que querés guardar:\n\nnombre = \"Luna\"\nedad = 3\nes_gato = True\n\nPython es inteligente: detecta automáticamente qué tipo de dato estás guardando. No tenés que decirle \"esto es un número\" o \"esto es texto\" — lo infiere solo.\n\nLos tipos básicos en Python son:\n\n• str (string/texto): cadenas de caracteres entre comillas\n• int (integer/entero): números sin decimales\n• float (flotante): números con decimales\n• bool (booleano): True o False\n• NoneType: el valor None, que representa \"nada\"",
+      "analogia": "Imaginá que tenés una caja de herramientas. Cada compartimento tiene una etiqueta: \"tornillos\", \"clavos\", \"tuercas\". La etiqueta es el nombre de la variable, y lo que hay adentro es el valor. Podés cambiar los tornillos por otros tornillos más grandes (cambiar el valor), pero la etiqueta sigue siendo \"tornillos\". También podrías vaciar el compartimento y poner clavos, pero eso sería raro — en Python es válido, pero puede confundir.",
+      "ejemplos": [
+        "# Variables con diferentes tipos de datos\nnombre_mascota = \"Pixel\"  # str\nedad = 5                   # int\npeso = 4.2                 # float\nvacunado = True            # bool\nchip = None                # NoneType\n\n# Ver el tipo de una variable\nprint(type(nombre_mascota))  # <class 'str'>\nprint(type(edad))            # <class 'int'>",
+        "# Reasignar variables\ncontador = 10\nprint(contador)  # 10\n\ncontador = contador + 1\nprint(contador)  # 11\n\n# Forma corta\ncontador += 1\nprint(contador)  # 12",
+        "# Concatenar strings\nnombre = \"Ada\"\napellido = \"Lovelace\"\n\nnombre_completo = nombre + \" \" + apellido\nprint(nombre_completo)  # Ada Lovelace\n\n# f-strings (forma moderna)\nmensaje = f\"Hola, soy {nombre} {apellido}\"\nprint(mensaje)  # Hola, soy Ada Lovelace"
+      ],
+      "personaje": "Soy Pixel, la serpiente mentora de Python. Vivo en el servidor de DEFO y me encanta enrollarme alrededor de conceptos complicados para hacerlos más simples. Hoy vamos a hablar de variables — el primer ladrillo de cualquier programa."
+    },
+    "desafios": [
+      {
+        "numero": 1,
+        "titulo": "Mi primer variable",
+        "enunciado": "Creá una variable llamada 'nombre' que contenga tu nombre.\nCreá otra variable llamada 'edad' con tu edad.\n\nImprimí ambas variables usando print().",
+        "dificultad": "facil",
+        "xp": 10,
+        "medalla": null,
+        "solucion_oculta": "nombre = \"Tu Nombre\"\nedad = 25\n\nprint(nombre)\nprint(edad)"
+      },
+      {
+        "numero": 2,
+        "titulo": "Tipos de datos",
+        "enunciado": "Creá cuatro variables, una de cada tipo:\n\n• Un texto (string)\n• Un número entero (int)\n• Un número con decimales (float)\n• Un valor verdadero o falso (bool)\n\nUsá print() para mostrar cada una.",
+        "dificultad": "facil",
+        "xp": 10,
+        "medalla": null,
+        "solucion_oculta": "texto = \"Hola mundo\"\nentero = 42\ndecimal = 3.14\nbooleano = True\n\nprint(texto)\nprint(entero)\nprint(decimal)\nprint(booleano)"
+      },
+      {
+        "numero": 3,
+        "titulo": "Ficha de videojuego",
+        "enunciado": "Creá variables para almacenar datos sobre tu videojuego favorito:\n\n• nombre_juego (texto)\n• anio_lanzamiento (número entero)\n• nota_personal (número con decimales, del 1 al 10)\n• lo_recomiendo (verdadero o falso)\n\nImprimí todas las variables.",
+        "dificultad": "facil",
+        "xp": 15,
+        "medalla": null,
+        "solucion_oculta": "nombre_juego = \"Zelda: Breath of the Wild\"\nanio_lanzamiento = 2017\nnota_personal = 9.5\nlo_recomiendo = True\n\nprint(nombre_juego)\nprint(anio_lanzamiento)\nprint(nota_personal)\nprint(lo_recomiendo)"
+      },
+      {
+        "numero": 4,
+        "titulo": "Cambiar el valor",
+        "enunciado": "Creá una variable llamada 'contador' con valor 0.\nLuego, asignale el valor 1.\nDespués, asignale el valor 2.\n\nImprimí el valor final.",
+        "dificultad": "facil",
+        "xp": 10,
+        "medalla": null,
+        "solucion_oculta": "contador = 0\ncontador = 1\ncontador = 2\n\nprint(contador)"
+      },
+      {
+        "numero": 5,
+        "titulo": "Presentación personal",
+        "enunciado": "Creá variables con tu información:\n• nombre\n• ciudad\n• lenguaje_favorito\n\nUsá print() para mostrar un mensaje que diga:\n\"Hola, soy [nombre] de [ciudad] y me gusta [lenguaje_favorito]\"",
+        "dificultad": "medio",
+        "xp": 20,
+        "medalla": "Primera Presentación",
+        "solucion_oculta": "nombre = \"Leo\"\nciudad = \"Buenos Aires\"\nlenguaje_favorito = \"Python\"\n\nprint(\"Hola, soy\", nombre, \"de\", ciudad, \"y me gusta\", lenguaje_favorito)"
+      }
+    ]
+  }
+}
