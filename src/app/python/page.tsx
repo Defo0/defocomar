@@ -16,7 +16,7 @@ export default function PythonPage() {
           Python
         </h1>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          17 módulos que te llevan desde variables básicas hasta un proyecto integrador. 
+          19 módulos que te llevan desde variables básicas hasta un proyecto integrador. 
           Cada módulo tiene teoría con analogías cotidianas y desafíos graduales.
         </p>
       </div>
@@ -43,7 +43,7 @@ export default function PythonPage() {
                   <h2 className="font-bold text-lg">
                     {modulo.titulo}
                     {modulo.numero === 7 && <span className="ml-2">⭐</span>}
-                    {modulo.numero === 17 && <span className="ml-2">🏆</span>}
+                    {modulo.numero === 19 && <span className="ml-2">🏆</span>}
                   </h2>
                   {!isAvailable && (
                     <span className="text-xs text-muted-foreground">Próximamente</span>

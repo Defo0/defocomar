@@ -27,8 +27,8 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "DEFO.com.ar | Aprendé a programar codeando a mano",
-  description: "Plataforma educativa de programación con estética pixel art, gamificación y filosofía código de honor. Se aprende codeando a mano, sin IA.",
+  title: "DEFO.com.ar | Reaprendiendo a programar a mano",
+  description: "Plataforma educativa de programación con estética pixel art, gamificación y filosofía código de honor.",
   icons: {
     icon: "/favicon.PNG",
   },
